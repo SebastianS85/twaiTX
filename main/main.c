@@ -127,7 +127,7 @@ static void can_tx_task(void *pvParameters) {
         twai_frame_t frame = {0};
 
         // 3. Configure the header (ESP-IDF v6)
-        frame.header.id  = 0x1A2;               // Target ID (change as needed)
+        frame.header.id  = 0x271;               // Target ID (change as needed)
         frame.header.ide = 0;                   // 11-bit standard ID
         frame.header.fdf = 1;                   // CAN-FD frame
         frame.header.brs = 1;                   // Bit Rate Switch (faster data phase)
