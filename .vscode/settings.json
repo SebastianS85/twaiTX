@@ -1,0 +1,38 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.extensionActivationMode": "always",
+  "cmake.configureOnOpen": false,
+  "cmake.configureOnEdit": false,
+  "cmake.automaticReconfigure": false,
+  "cmake.autoSelectActiveFolder": false,
+  "cmake.options.advanced": {
+    "build": {
+      "statusBarVisibility": "inherit",
+      "inheritDefault": "hidden"
+    },
+    "launch": {
+      "statusBarVisibility": "inherit",
+      "inheritDefault": "hidden"
+    },
+    "debug": {
+      "statusBarVisibility": "inherit",
+      "inheritDefault": "hidden"
+    }
+  },
+  "idf.openOcdConfigs": [
+    "board/esp32c5-builtin.cfg"
+  ],
+  "idf.port": "COM25",
+  "idf.currentSetup": "C:\\esp\\v6.0.2\\esp-idf",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32c5",
+    "OPENOCD_USB_ADAPTER_LOCATION": "3-1.3.1"
+  },
+  "clangd.path": "C:\\Espressif\\tools\\esp-clang\\esp-20.1.1_20250829\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=c:\\esp projects\\twaiTX\\build"
+  ],
+  "idf.flashType": "UART"
+}
